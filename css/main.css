@@ -124,6 +124,11 @@ a {
   }
   .right-sidebar li:nth-child(4){
     background: #720053;
+    /* border-radius: 0 0 0 6px;
+    border-bottom: 0px; */
+  }
+  .right-sidebar li:nth-child(5){
+    background: #007257;
     border-radius: 0 0 0 6px;
     border-bottom: 0px;
   }
@@ -161,6 +166,9 @@ a {
   }
   .right-sidebar li:nth-child(4)::before{
     content: 'Email Me!';
+  }
+  .right-sidebar li:nth-child(5)::before{
+    content: 'Resume';
   }
   
 
